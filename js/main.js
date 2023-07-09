@@ -1,0 +1,10 @@
+$(function(){
+    $('.menu').click(function(){
+        $('.gnb_wrap').animate({'left':0},500)
+        $('.cover').fadeIn();
+    })
+    $('.close').click(function(){
+        $('.cover').fadeOut();
+        $('.gnb_wrap').animate({'left':-1920},500)
+    })
+})
